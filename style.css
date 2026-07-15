@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+}
+.header ul{
+    display: flex;
+    list-style: none;
+    gap: 14px;
+}
+a{
+    text-decoration: none;
+}
+
+.header-bottom{
+    display: flex;
+}
+
+.figure-banner{
+    display: flex;
+    gap: 15px;
+}
+
+.call-to-action{
+    display: flex;
+}
