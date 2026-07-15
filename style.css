@@ -1,3 +1,5 @@
+@import url('https://googleapis.com');
+
 *{
     margin: 0;
     padding: 0;
@@ -6,6 +8,16 @@
 body{
     display: flex;
     flex-direction: column;
+}
+
+.header{
+    background-color: #1F2937;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.header-logo{
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .header-top{
@@ -19,10 +31,31 @@ body{
 }
 a{
     text-decoration: none;
+    color: white;
 }
 
 .header-bottom{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.header-bottom-left h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+.header-bottom-left p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+.main-page h2{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
 }
 
 .figure-banner{
@@ -30,6 +63,24 @@ a{
     gap: 15px;
 }
 
+.quote-section{
+    background-color: #E5E7EB;
+}
+.quote-text{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
 .call-to-action{
     display: flex;
+}
+
+button{
+    background-color: #3882F6;
+}
+
+.footer{
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
